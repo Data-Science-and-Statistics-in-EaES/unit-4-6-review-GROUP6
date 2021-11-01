@@ -36,7 +36,9 @@ month_name <- c("January",
 
 #### Member 1
 
-Add your code here.
+```{r month-factor}
+order <- c(1:12)
+```
 
 #### Member 2
 
