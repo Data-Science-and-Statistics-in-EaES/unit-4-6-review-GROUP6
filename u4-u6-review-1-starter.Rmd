@@ -42,7 +42,9 @@ order <- c(1:12)
 
 #### Member 2
 
-Add your code here.
+```{r season}
+season <- c("winter", "winter", "spring", "spring", "spring", "summer", "summer", "summer", "fall", "fall", "fall", "winter")
+```
 
 #### Member 3
 
@@ -67,11 +69,21 @@ ___ <- tibble::tibble(
 
 #### Member 1
 
-Add your code here.
+```{r merge-two-vectors-order, eval = T}
+month_order <- tibble::tibble(
+  "month_name" = month_name,
+  "order" = order
+)
+```
 
 #### Member 2
 
-Add your code here.
+```{r merge-two-vectors-season, eval = T}
+month_season <- tibble::tibble(
+  "month_name" = month_name,
+  "season" = season
+)
+```
 
 #### Member 3
 
