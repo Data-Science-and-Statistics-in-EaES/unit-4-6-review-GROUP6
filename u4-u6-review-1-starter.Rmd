@@ -1,7 +1,7 @@
 ---
 title: "Unit 4 - 6 Review Starter"
-author: "Group 6, Frank Zurek"
-date: "11/01/2021"
+author: "Group 6, Frank Zurek, Sonia, Inez"
+date: "11/02/2021"
 output: html_document
 ---
 
@@ -67,7 +67,12 @@ ___ <- tibble::tibble(
 
 #### Member 1
 
-Add your code here.
+```{r merge-two-vectors-order, eval = T}
+month_order <- tibble::tibble(
+  "month_name" = month_name,
+  "order" = order
+)
+```
 
 #### Member 2
 
