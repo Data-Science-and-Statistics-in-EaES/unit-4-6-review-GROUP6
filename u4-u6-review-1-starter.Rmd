@@ -1,7 +1,7 @@
 ---
 title: "Unit 4 - 6 Review Starter"
-author: "Group 6, Frank Zurek"
-date: "11/01/2021"
+author: "Group 6, Frank Zurek, Sonia, Inez"
+date: "11/02/2021"
 output: html_document
 ---
 
@@ -42,9 +42,7 @@ order <- c(1:12)
 
 #### Member 2
 
-```{r season}
-season <- c("winter", "winter", "spring", "spring", "spring", "summer", "summer", "summer", "fall", "fall", "fall", "winter")
-```
+Add your code here.
 
 #### Member 3
 
@@ -78,12 +76,7 @@ month_order <- tibble::tibble(
 
 #### Member 2
 
-```{r merge-two-vectors-season, eval = T}
-month_season <- tibble::tibble(
-  "month_name" = month_name,
-  "season" = season
-)
-```
+Add your code here.
 
 #### Member 3
 
