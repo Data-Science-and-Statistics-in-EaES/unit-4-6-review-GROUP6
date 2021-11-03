@@ -46,7 +46,7 @@ Add your code here.
 
 #### Member 3
 
-Add your code here.
+temperature <- c(29, 30, 32, 35, 33, 36, 48, 47, 52, 54, 57, 60)
 
 #### Member 4
 
